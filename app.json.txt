@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "advancedQR",
+    "slug": "djok4ne",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "owner": "djoc4n",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.djoc4n.qrgen",
+      "backgroundColor": "#121212",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      }
+    }
+  }
+}
