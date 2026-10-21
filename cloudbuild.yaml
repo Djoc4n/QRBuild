@@ -1,13 +1,18 @@
 steps:
-  - name: 'node:22'
+  - name: 'node:20'
+    entrypoint: 'npm'
+    args: ['install']
+
+  - name: 'node:20'
     entrypoint: 'bash'
     args:
       - '-c'
       - |
-        npm install --quiet
-        npm install -g eas-cli --unsafe-perm
+        npm install -g eas-cli
         export NODE_ENV=production
-        export EXPO_TOKEN="R1rnfICpxkaJehvk5FpvcEnYSCEWXVf1Uw_vtU5kz"
+        export EXPO_TOKEN="R1nfICpXkAjehVk5FpvcEnYScEwXVflUW_vtU5kZ"
+        
+        eas init --account djoc4ne --non-interactive || true
         
         eas build --platform android --profile preview --non-interactive --clear-cache
 
