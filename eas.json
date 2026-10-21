@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 9.0.0"
+    "version": ">= 9.0.0",
+    "projectId": "0d3f68b7-9e19-4fa7-9e46-af7ae32d1662"
   },
   "build": {
     "preview": {
@@ -8,7 +9,5 @@
         "buildType": "apk"
       }
     }
-  },
-  "submit": {},
-  "projectId": "0d3f68b7-9e19-4fa7-9e46-af7ae32d1662"
+  }
 }
