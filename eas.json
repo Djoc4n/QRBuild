@@ -1,7 +1,7 @@
 {
+  "projectId": "0d3f68b7-9e19-4fa7-9e46-af7ae32d1662",
   "cli": {
-    "version": ">= 9.0.0",
-    "projectId": "0d3f68b7-9e19-4fa7-9e46-af7ae32d1662"
+    "version": ">= 9.0.0"
   },
   "build": {
     "preview": {
